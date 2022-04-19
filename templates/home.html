@@ -1,0 +1,32 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> CAR PRICE PREDICTION </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> symboling :  <input type="text", name='a', placeholder="enter symboling"> <br><br>
+            wheelbase :  <input type="text", name='b', placeholder="enter wheelbase"> <br><br>
+            carlength :  <input type="text", name='c', placeholder="enter carlength"> <br><br>
+            carwidth : <input type="text", name='d', placeholder="enter carwidth"> <br><br>
+			carheight :  <input type="text", name='e', placeholder="enter carheight"> <br><br>
+            curbweight :  <input type="text", name='f', placeholder="enter curbweight"> <br><br>
+            enginesize :  <input type="text", name='g', placeholder="enter enginesize"> <br><br>
+            boreratio : <input type="text", name='h', placeholder="enter boreratio"> <br><br>
+			stroke :  <input type="text", name='i', placeholder="enter stroke"> <br><br>
+            compressionratio :  <input type="text", name='j', placeholder="enter compressionratio"> <br><br>
+            horsepower :  <input type="text", name='k', placeholder="enter horsepower"> <br><br>
+            peakrpm : <input type="text", name='l', placeholder="enter peakrpm"> <br><br>
+			citympg :  <input type="text", name='m', placeholder="enter citympg"> <br><br>
+            highwaympg :  <input type="text", name='n', placeholder="enter highwaympg"> <br><br>
+			<br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+
+        <img src='static\cars.jpg' alt="fleet">
+        
+    </center>
+
+    </body>
+</html>
